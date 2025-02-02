@@ -11,4 +11,13 @@ if (purchaseAmount > 100) {
 } // This says that if an item costs more than $100, then a 15% discount will be applied. 
 // If it costs less than $100, it will keep the original purchase amount.
 
+// Task 2 - Sales Report
+
+let sales = [50, 70, 40, 90, 80]; // these are the sales figures
+let totalSales = 0 // initialize the variable before the loop
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i]; 
+}; // this adds the figures in the array together
+
+console.log(`Total Sales: ${totalSales}`) // this logs the total sales to the console
 
