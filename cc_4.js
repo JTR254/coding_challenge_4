@@ -21,3 +21,10 @@ for (let i = 0; i < sales.length; i++) {
 
 console.log(`Total Sales: ${totalSales}`) // this logs the total sales to the console
 
+// Task 3 - Inventory Depletion
+
+let stock = 10 // initialize the stock variable
+while (stock >= 0) { // loop runs while stock is greater than or equal to 0
+    console.log(`Stock is: ${stock}`); // this logs the stock value to the console
+    stock--;// this ensures the value of "Stock" is decreasing by a count of 1
+}
