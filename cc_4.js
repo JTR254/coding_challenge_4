@@ -14,7 +14,7 @@ if (purchaseAmount > 100) {
 // Task 2 - Sales Report
 
 let sales = [50, 70, 40, 90, 80]; // these are the sales figures
-let totalSales = 0 // initialize the variable before the loop
+let totalSales = 0; // initialize the variable before the loop
 for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i]; 
 }; // this adds the figures in the array together
@@ -23,8 +23,20 @@ console.log(`Total Sales: ${totalSales}`) // this logs the total sales to the co
 
 // Task 3 - Inventory Depletion
 
-let stock = 10 // initialize the stock variable
+let stock = 10; // initialize the stock variable
 while (stock >= 0) { // loop runs while stock is greater than or equal to 0
     console.log(`Stock is: ${stock}`); // this logs the stock value to the console
-    stock--;// this ensures the value of "Stock" is decreasing by a count of 1
-}
+    stock-- ;// this ensures the value of "Stock" is decreasing by a count of 1
+};
+
+// Task 4 - Customer Surveys
+
+let responses = 0;
+ do {
+    console.log(`Response ${responses}`);
+    responses ++;
+} while (responses <= 3);
+
+
+
+
