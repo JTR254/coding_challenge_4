@@ -62,3 +62,15 @@ for (let product of products ){
 let orders = [191, 175, 273] // these are the three Order ID numbers
 orders.forEach (order => {console.log(`Order ${order}`)}) // this prints the orders individually, instead of all together
 
+// Task 8 - Tax Calculation
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate; // this multiplies the amount by the tax rate (100 * .15)
+}
+
+let amount = 100; // 100 dollars is the amount
+let taxRate = .15; // the tax rate is 15%
+
+let taxAmount = calculateTax(amount, taxRate);
+console.log(`Tax Amount: $${taxAmount}`) // logs the amount of tax. the amount of tax will be $15
+
