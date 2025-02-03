@@ -31,23 +31,30 @@ while (stock >= 0) { // loop runs while stock is greater than or equal to 0
 
 // Task 4 - Customer Surveys
 
-let responses = 0;
+let responses = 0; // initialize the variable
  do {
     console.log(`Response ${responses}`);
     responses ++;
-} while (responses <= 3);
+} while (responses <= 3); // creats a while loop until the amount of responses hits 3
 
 // Task 5 - Employee Information
 
 let employee = {
-    name: "Alice",
-    position: "Manager",
-    salary: 75000
+    name: "Alice", // employee's name is Alice
+    position: "Manager", // Alice is a Manager
+    salary: 75000 // Alice makes $75000 a year
 };
 for (let key in employee) {
     
-    console.log (`${key}: ${employee[key]}`)
+    console.log (`${key}: ${employee[key]}`) // logs the employee information
         
     }
+
+// Task 6 - Product Listing
+
+let products = ["Laptop", "Mouse", "Keyboard"]; // The products are Laptops, Mouses, and Keyboards
+for (let product of products ){
+    console.log(`Product: ${product}`)
+} // logs each product e.g. Product: Laptops
 
 
