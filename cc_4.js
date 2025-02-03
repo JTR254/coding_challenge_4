@@ -74,3 +74,13 @@ let taxRate = .15; // the tax rate is 15%
 let taxAmount = calculateTax(amount, taxRate);
 console.log(`Tax Amount: $${taxAmount}`) // logs the amount of tax. the amount of tax will be $15
 
+// Task 9 - Discount Application
+
+let discountPercentage = .10; // the discount is 10%
+let applyDiscount = function(price) {
+    return price - (price * discountPercentage); // this is the equation to find out the final price
+};
+
+let finalPrice = applyDiscount(300); // the price 300 is being plugged into the equation
+
+console.log(`Price After Discount: $${finalPrice}`) // the output "Price After Discount: $270
