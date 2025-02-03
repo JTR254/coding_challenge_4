@@ -57,4 +57,8 @@ for (let product of products ){
     console.log(`Product: ${product}`)
 } // logs each product e.g. Product: Laptops
 
+// Task 7 - Order Processing
+
+let orders = [191, 175, 273] // these are the three Order ID numbers
+orders.forEach (order => {console.log(`Order ${order}`)}) // this prints the orders individually, instead of all together
 
