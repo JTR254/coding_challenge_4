@@ -84,3 +84,11 @@ let applyDiscount = function(price) {
 let finalPrice = applyDiscount(300); // the price 300 is being plugged into the equation
 
 console.log(`Price After Discount: $${finalPrice}`) // the output "Price After Discount: $270
+
+// Task 10 - Loyalty Points
+
+const calculatePoints = (purchasedAmount) => purchasedAmount / 10; // the purchased amount is divided by 10 in order to reveal the loyalty points
+let purchasedAmount = 20; // the purchased amount is $20
+let loyaltyPoints = calculatePoints(purchasedAmount); 
+
+console.log(`Loyalty Points: ${loyaltyPoints}`); // the output is "Loyalty Points: 2"
